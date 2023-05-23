@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe {ARYAN PATEL}</h1>
+        <table>
+            <tr>
+                <td onclick="makeMove(0)"></td>
+                <td onclick="makeMove(1)"></td>
+                <td onclick="makeMove(2)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(3)"></td>
+                <td onclick="makeMove(4)"></td>
+                <td onclick="makeMove(5)"></td>
+            </tr>
+            <tr>
+                <td onclick="makeMove(6)"></td>
+                <td onclick="makeMove(7)"></td>
+                <td onclick="makeMove(8)"></td>
+            </tr>
+        </table>
+        <p id="result"></p>
+        <button onclick="resetBoard()">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
